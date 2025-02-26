@@ -1,0 +1,173 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MeraBillPractical" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorBackground">@color/colorAppBackground</item>
+
+        <item name="materialAlertDialogTheme">@style/Theme.App.MaterialAlertDialog</item>
+    </style>
+
+    <style name="Theme.MeraBillPractical" parent="Base.Theme.MeraBillPractical" />
+
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorAppBackground">@color/white</color>
+    <color name="colorInputBackgroundSelected">@color/blue_10</color>
+    <color name="colorInputBackgroundUnselected">@color/gray</color>
+    <color name="colorTextHint">@color/silver</color>
+    <color name="colorIconDefault">@color/eerie_black</color>
+    <color name="colorSecondaryText">@color/charcoal_black</color>
+
+    <!--Button-->
+    <style name="Theme.App.Button.Primary" parent="Theme.App">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textSize">@dimen/TitleLarge</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:backgroundTint">@color/color_button_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingStart">@dimen/button_space</item>
+        <item name="android:paddingEnd">@dimen/button_space</item>
+        <item name="cornerRadius">@dimen/app_radius</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Theme.App.Button.Primary.Secondary" parent="Theme.App.Button.Primary">
+        <item name="android:backgroundTint">@color/color_button_secondary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Theme.App" parent="Base.Theme.MeraBillPractical" />
+
+    <style name="Theme.TextView.Base" parent="Theme.App">
+        <item name="fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="Theme.TextView.TitleSmall" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/TitleSmall</item>
+    </style>
+
+    <style name="Theme.TextView.TitleMedium" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/TitleMedium</item>
+    </style>
+
+    <style name="Theme.TextView.TitleLarge" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/TitleLarge</item>
+    </style>
+
+    <style name="Theme.TextView.BodySmall" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/BodySmall</item>
+    </style>
+
+    <style name="Theme.TextView.BodyMedium" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/BodyMedium</item>
+    </style>
+
+    <style name="Theme.TextView.BodyLarge" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/BodyLarge</item>
+    </style>
+
+    <style name="Theme.TextView.LabelSmall" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/LabelSmall</item>
+    </style>
+
+    <style name="Theme.TextView.LabelMedium" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/LabelMedium</item>
+    </style>
+
+    <style name="Theme.TextView.LabelLarge" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/LabelLarge</item>
+    </style>
+
+    <style name="Theme.TextView.DisplaySmall" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/DisplaySmall</item>
+    </style>
+
+    <style name="Theme.TextView.DisplayMedium" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/DisplayMedium</item>
+    </style>
+
+    <style name="Theme.TextView.DisplayLarge" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/DisplayLarge</item>
+    </style>
+
+    <style name="Theme.TextView.HeadlineSmall" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/HeadlineSmall</item>
+    </style>
+
+    <style name="Theme.TextView.HeadlineMedium" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/HeadlineMedium</item>
+    </style>
+
+    <style name="Theme.TextView.HeadlineLarge" parent="Theme.TextView.Base">
+        <item name="android:textSize">@dimen/HeadlineLarge</item>
+    </style>
+
+
+    <!--Dialog theme-->
+    <style name="Theme.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearanceOverlay.MaterialAlertDialog.Rounded
+        </item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialogText</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialogBodyText</item>
+        <item name="android:background">@color/white</item>
+
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialAlertDialog.Rounded" parent="Theme.App">
+        <item name="cornerSize">@dimen/app_radius</item>
+    </style>
+
+    <style name="MaterialAlertDialogText" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/TitleLarge</item>
+    </style>
+
+    <style name="MaterialAlertDialogBodyText" parent="@style/MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingExtra">@dimen/space_small</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">25</item>
+        <item name="android:textSize">@dimen/BodyLarge</item>
+    </style>
+
+    <!--Text Input Theme-->
+
+    <style name="Theme.App.TextField" parent="Theme.App.TextField.OutlinedBox.Normal">
+        <item name="boxCornerRadiusBottomStart">@dimen/app_radius</item>
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/app_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/app_radius</item>
+        <item name="boxCornerRadiusTopStart">@dimen/app_radius</item>
+        <item name="boxStrokeColor">@color/color_input_stroke</item>
+        <item name="android:background">@drawable/drawable_text_input_view</item>
+        <item name="boxStrokeWidthFocused">1.5dp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextColor">@color/colorTextHint</item>
+        <item name="hintEnabled">false</item>
+        <item name="endIconTint">@color/colorIconDefault</item>
+        <item name="startIconTint">@color/colorIconDefault</item>
+        <item name="passwordToggleTint">@color/colorIconDefault</item>
+    </style>
+
+    <style name="Theme.App.TextField.OutlinedBox.Normal" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/TitleMedium</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+
+    <style name="Theme.App.TextInputEditText.Normal" parent="Theme.App.TextField.OutlinedBox.Normal">
+        <item name="android:paddingStart">@dimen/space_large</item>
+        <item name="android:paddingEnd">@dimen/space_large</item>
+        <item name="android:minHeight">@dimen/input_height</item>
+        <item name="android:tint">@color/colorIconDefault</item>
+        <item name="android:textSize">@dimen/TitleMedium</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>

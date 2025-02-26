@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_xsmall">4dp</dimen>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="space_medium">16dp</dimen>
+    <dimen name="space_large">24dp</dimen>
+    <dimen name="space_xlarge">32dp</dimen>
+
+    <dimen name="chip_radius">50dp</dimen>
+    <dimen name="chip_height">42dp</dimen>
+
+    <dimen name="button_height">58dp</dimen>
+    <dimen name="button_small">48dp</dimen>
+    <dimen name="button_space">50dp</dimen>
+
+    <dimen name="app_radius">12dp</dimen>
+
+    <dimen name="input_height">58dp</dimen>
+
+    <dimen name="TitleSmall">14sp</dimen>
+    <dimen name="TitleMedium">16sp</dimen>
+    <dimen name="TitleLarge">20sp</dimen>
+    <dimen name="BodySmall">12sp</dimen>
+    <dimen name="BodyMedium">14sp</dimen>
+    <dimen name="BodyLarge">16sp</dimen>
+    <dimen name="LabelSmall">11sp</dimen>
+    <dimen name="LabelMedium">12sp</dimen>
+    <dimen name="LabelLarge">14sp</dimen>
+    <dimen name="DisplaySmall">36sp</dimen>
+    <dimen name="DisplayMedium">45sp</dimen>
+    <dimen name="DisplayLarge">57sp</dimen>
+    <dimen name="HeadlineSmall">24sp</dimen>
+    <dimen name="HeadlineMedium">28sp</dimen>
+    <dimen name="HeadlineLarge">32sp</dimen>
+</resources>
